@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  text-shadow: 0px 0px 12px #bd013d;
+}
+
+img {
+  border-radius: 10000px;
+  width: 30%;
+  margin: 24px auto;
+  box-shadow: 10px 10px 20px 4px #00000030;
+}
+
+a {
+  background-color: white;
+  border: 1px solid #ffd9e4 !important;
+  color: #e2134eb4;
+  text-shadow: 0px 0px 10px #d7567f;
+}
+
+blockquote {
+  display: inline;
+  width: 400px;
+  text-align: center;
+  padding: 24px;
+  margin: 24px;
+  border-radius: 100000px;
+  background-color: #eee;
+  font-family: serif;
+  color: #e2134eb4;
+  text-shadow: 0px 0px 10px #d7567f;
+}
+
+dt {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+}
+
+dd {
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+h2,
+h3 {
+  margin: 24px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  padding: 12px;
+}
+
+th {
+  padding: 12px;
+  border-bottom: 1px solid #d7567f;
+}
+
+p {
+  width: 80%;
+  margin: 12px auto;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+p::after,
+p::before {
+  display: inline-block;
+  content: '"';
+  font-size: 20pt;
+  line-height: 1px;
+  font-family: serif;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 6px;
+  min-height: 32px;
+}
+
+form {
+  max-width: 60%;
+  margin: auto;
+}
+
+.external-link {
+  margin: 4px;
+  padding: 12px;
+  display: inline-block;
+  border-radius: 100000px;
+  text-decoration: none;
+}
+
+.top-bottom-12px {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page:first-child {
+  background-color: #d7567f;
+}
+
+.page:nth-child(2) {
+  background-color: #e6749d;
+}
+
+.page:nth-child(3) {
+  background-color: #eb698cc0;
+  dt {
+    font-weight: 600;
+  }
+}
+
+.page:nth-child(4) {
+  background-color: #ffc0cb;
+  color: #e0004f73;
+  text-shadow: 0px 0px 5px #a53e5e96;
+}
+
+.page:nth-child(5) {
+  background-color: #ffd9e4;
+  color: #f3246c63;
+  text-shadow: 0px 0px 5px #eb6c94d3;
+}
+
+.page:nth-child(6) {
+  background-color: #ffe1e6;
+  color: #ff0059cc;
+  text-shadow: 1px 0px 2px #7d4f86;
+}
+
+.page:nth-child(7) {
+  background-color: #fff0f5;
+  h3 {
+    font-size: 30px;
+  }
+}
