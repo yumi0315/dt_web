@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>허유미를 소개합니다.</title>
+    <style>
+      @keyframes sparkle {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.2);
+          opacity: 0.5;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      /* 모든 요소의 범위를 그림 */
+      * {
+        padding: 0px;
+        margin: 0px;
+        /* border: 1px solid; */
+      }
+
+      /* 범위확인용 */
+      /* * {
+        background-color: rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      } */
+
+      html,
+      body {
+        background-color: #fff0f5;
+      }
+
+      img {
+        width: 300px;
+        display: block;
+        margin: auto;
+        border: 1.5px solid #eb647e;
+        border-radius: 100%; /* 둥근 모서리의 반지름 값을 지정 */
+        box-shadow: 10px 10px 30px rgba(240, 128, 128, 0.3);
+        animation: sparkle 1s infinite;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-size: 25px;
+        color: #eb647e;
+        text-align: center;
+        margin: 18px;
+        /* font-family: cursive !important; */
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      h3 {
+        font-size: 15px;
+      }
+
+      .ppp {
+        margin: 20px;
+        padding: 24px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 28px;
+        background-color: rgba(240, 128, 128, 0.4);
+      }
+
+      div,
+      .center {
+        text-align: center;
+      }
+
+      div a {
+        font-size: 30px;
+        border-radius: 28px;
+        padding: 6px;
+        color: #f08080;
+        font-family: cursive;
+      }
+
+      dl {
+        text-align: center;
+      }
+
+      table {
+        text-align: left;
+        border-collapse: collapse;
+        margin: 0 auto;
+      }
+      th {
+        border-bottom: 1px solid #eb647e;
+      }
+
+      th,
+      td {
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+      form {
+        text-align: center;
+      }
+
+      input,
+      textarea {
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>쌔싹 허유미 abce</h1>
+    <a href="https://www.instagram.com/zanmang_loopy/?hl=ko" target="_blank">
+      <img
+        src="https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202306/11/30263940-1f56-4a40-b5e2-c22c9ad7abc8.jpg"
+      />
+    </a>
+    <p class="ppp">좋아하는 캐릭터는 루피</p>
+    <div>
+      <a href="tel://+821040757413">Cellular</a>
+      <a href="mailto:gjdbal111@gmail.com">e-mail</a>
+    </div>
+
+    <h2>인적사항</h2>
+    <dl>
+      <div class="center">
+        <dt>이름</dt>
+        <dd>허유미</dd>
+      </div>
+      <div class="center">
+        <dt>생년월일</dt>
+        <dd>1999년 3월 15일</dd>
+      </div>
+      <div class="center">
+        <dt>사는 곳</dt>
+        <dd>거제시</dd>
+      </div>
+    </dl>
+    <h2>교육</h2>
+    <table>
+      <thead>
+        <th>기간</th>
+        <th>기관/과목명</th>
+        <th>상태</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2018.3 ~ 2023.2</td>
+          <td>동의대학교 컴퓨터공학과 학사</td>
+          <td>졸업</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>자기소개</h2>
+    <div>css가 싫습니다</div>
+    <br />
+    <h3>제가 좀 더 궁금하시다면 아래 양식을 작성하셔서 연락주세요.</h3>
+    <form>
+      <input type="email" placeholder="이메일" />
+      <br />
+      <textarea placeholder="하실 말씀"></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
